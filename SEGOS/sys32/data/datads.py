@@ -1,7 +1,7 @@
 import os,socket,requests,shifr,glob,sys
 import settings.settdata as sd
 
-help = """"cd          //cmd
+help = """cd          //cmd
 echo/print  //cmd print
 osprojects  //os projects
 verinfo     //os version
@@ -10,7 +10,7 @@ password    //set password
 run         //run apps
 sudo        //install/delete apps"""
 
-user = "Admin";nameos = "SEGOS";__version__ = "v1.0.0";userlist=[]
+user = "Admin";nameos = "SEGOS";__version__ = "v2.0.0";userlist=[]
 apin = "App is downloaded !!!";gain = "Game is downloaded !!!";pwdcorrect=""
 host = "https://localhost:1000";port = 1000
 
